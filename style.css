@@ -1,0 +1,103 @@
+body{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+/* header stuff */
+
+header{
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 55px;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: black;
+    margin-left: 55px;
+    font-size: 175%;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+header ul li{
+    margin: 5px;
+}
+
+header ul li img{
+    width: 30px;
+    height: 30px;
+}
+
+/* section stuff */
+
+section{
+    background: gray;
+    height: 870px;
+    display: flex;
+}
+
+section div.info{
+    flex: 0;
+    background-color: rgb(34, 34, 34);
+    padding: 3%;
+}
+
+section div.info h1{
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+}
+
+section div.info p{
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+section div.info ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+section div.info li{
+    display: flex;
+    margin: auto;
+    margin-left: 20px;
+}
+
+section div.info button{
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: purple;
+    border: none;
+    color: white;
+    font-size: 100%;
+}
+
+section div img{
+    height: 100%;
+    width: 100%;
+}
+
+/* footer stuff */
+
+footer{
+    background: black;
+    height: 40px;
+}
